@@ -1,5 +1,5 @@
 import { Groups } from "@screens/Groups";
-import { Loading } from "@components/Load";
+import { Loading } from "@components/Loading";
 
 import { ActivityIndicator, StatusBar } from "react-native";
 import {
