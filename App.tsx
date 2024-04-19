@@ -1,5 +1,7 @@
 import { Groups } from "@screens/Groups";
 import { NewGroup } from "@screens/NewGroup";
+import { Players } from "@screens/Players";
+
 import { Loading } from "@components/Loading";
 
 import { ActivityIndicator, StatusBar } from "react-native";
@@ -17,7 +19,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      {fontsLoaded ? <NewGroup /> : <Loading />}
+      {fontsLoaded ? <Players /> : <Loading />}
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
