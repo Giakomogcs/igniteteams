@@ -4,6 +4,8 @@ import { Players } from "@screens/Players";
 
 import { Loading } from "@components/Loading";
 
+import { Routes } from "./src/routes/";
+
 import { ActivityIndicator, StatusBar } from "react-native";
 import {
   useFonts,
@@ -19,7 +21,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      {fontsLoaded ? <Players /> : <Loading />}
+      {fontsLoaded ? <Routes /> : <Loading />}
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
