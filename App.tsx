@@ -11,7 +11,7 @@ import {
   Roboto_700Bold,
 } from "@expo-google-fonts/roboto";
 
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components/native";
 import theme from "./src/theme";
 
 export default function App() {
